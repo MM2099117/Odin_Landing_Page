@@ -1,81 +1,82 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-  }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+ 
+}
 
-  .header {
-    height: 72px;
-    background: #1f2937;
-    color: white;
-    display: flex;
-    align-items: space-between;
-    font-weight: 900;
-    padding: 16px;
-    font-size: 32px;
-    width: 100%;
-  }
+.header {
+  height: 72px;
+  background: #1f2937;
+  color: white;
+  display: flex;
+  align-items: space-between;
+  font-weight: 900;
+  padding: 16px;
+  font-size: 32px;
+  width: 100%;
+}
 
-  ol {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    list-style-type: none;
-    padding: 20px;
-  }
+ol {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  list-style-type: none;
+  padding: 20px;
+}
 
-  a{
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;
-    padding: 18px;
-  }
+a{
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 18px;
+}
 
-  li{
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;
-  }
+li{
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
 
-  div.Hero-container {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-  }
+.hero-container {
+  display: flex;
+  width: 100%;
+}
 
-  p{
-    display: flex;
-   }
+.hero-text-container{
+  flex: 0 0 calc(100% - 350px);
+  max-width: calc(100% - 350px);
+  align-items: center;
+}
 
-   p.intro-text{
-    order: 1;
-    color: #F9FAF8;
-    font-weight: bold;
-    font-size: 48px;
-    align-self: left;
-    width: 80%;
-   }
-
-   p.secondary-text{
-    order: 3;
-    color:#e5e7eb;
-    font-size: 18px;
-   }
-
-   img {
-    margin-right: 10px;
-    width: 350px;
-    height: 150px;    
-   }
-
-  .image-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    height: 72px;
-    padding: 10px 0;
+p{
+  margin: 0;
  }
 
+ p.intro-text{
+  order: 1;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 48px;
+  align-self: left;
+  width: 80%;
+ }
+
+ p.secondary-text{
+  order: 3;
+  color:#e5e7eb;
+  font-size: 18px;
+ }
+
+ img {
+  margin-right: 10px;
+  padding: 20px;
+ }
+
+.image-container {
+  height: 72px;
+
+}
